@@ -1,4 +1,4 @@
-@extends('layouts.application')
+@extends('layouts.app')
 @section('title', '一覧')
 @section('content')
   <ul>

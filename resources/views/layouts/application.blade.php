@@ -7,11 +7,6 @@
   <title>@yield('title')</title>
 </head>
 <body>
-  @if($errors->any())
-    @foreach ($errors->all() as $error)
-      <p style="color: #f88;">{{ $error }}</p>
-    @endforeach
-  @endif
   @yield('content')
 </body>
 </html>
